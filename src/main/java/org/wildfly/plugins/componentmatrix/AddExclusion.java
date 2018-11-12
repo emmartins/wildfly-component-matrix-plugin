@@ -27,7 +27,7 @@ package org.wildfly.plugins.componentmatrix;
  * A class to represent exclusion configuration for the BOM
  * builder.
  */
-public class BomExclusion {
+public class AddExclusion {
 
     private String dependencyGroupId;
 

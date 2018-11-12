@@ -25,7 +25,6 @@ package org.wildfly.plugins.componentmatrix.util;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
 import java.util.Arrays;
@@ -34,7 +33,6 @@ import java.util.TreeSet;
 import org.apache.maven.model.Dependency;
 import org.apache.maven.model.Model;
 import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
-import org.wildfly.plugins.componentmatrix.DependencyId;
 
 /**
  * @author <a href="mailto:kabir.khan@jboss.com">Kabir Khan</a>
